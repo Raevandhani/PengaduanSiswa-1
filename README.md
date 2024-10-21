@@ -19,19 +19,22 @@
   ```
 
 - Dalam Code Editor ( `seperti Visual Studio Code` )
-  1. Tulis kode dalam Terminal untuk menyimpan database:
+  - Tulis kode dalam Terminal untuk menyimpan database:
+
 
   ```
   php artisan migrate
   ```
 
-  2. Simpan kode ini jika belum menginstall npm:
+  - Simpan kode ini jika belum menginstall npm:
+
 
   ```
   npm install
   ```
 
-  3. Cara menjalankan dan menampilkan hasil, tulis kode dalam terminal:
+  - Cara menjalankan dan menampilkan hasil, tulis kode dalam terminal:
+
 
   ```
   php artisan serve
