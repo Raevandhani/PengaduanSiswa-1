@@ -18,7 +18,7 @@
   D:\xampp\htdocs
   ```
 
-- Dalam Code Editor ( `seperti Visual Studio Code` )
+- Dalam Code Editor ( seperti `Visual Studio Code` )
   - Tulis kode dalam Terminal untuk menyimpan database:
 
 
