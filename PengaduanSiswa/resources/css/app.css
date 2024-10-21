@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center-div-grid {
+    display: grid;
+    place-items: center;
+}
+
+/* Login */
+.form-login {
+    position: relative;
+    /* font-family: "Montserrat", serif; */
+}
+.login-overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    z-index:1;
+    display: none;
+}
+.form-login.active .login-overlay {
+    display: block;
+}
+.form-login.active .login-content {
+    transition: 200ms;
+    transform: scale(1.1);
+}
+.login-content {
+    position: absolute;
+    transform: scale(0);
+    z-index: 2;
+}
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
