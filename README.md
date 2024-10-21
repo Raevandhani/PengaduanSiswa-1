@@ -26,7 +26,7 @@
   php artisan migrate
   ```
 
-  - Simpan kode ini jika belum menginstall npm:
+  - Simpan kode ini jika belum menginstall node:
 
 
   ```
