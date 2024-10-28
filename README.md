@@ -47,6 +47,7 @@ php artisan serve
 npm run dev
 ```
 
+//
 # Instalasi 2.0
 - Download / Clone Source Code di Github
 - Download `Laragon` / `XAMPP`
@@ -91,3 +92,4 @@ npm run dev
   ```
 
 - Masuk ke `127.0.0.1:8000` dalam browser
+//
